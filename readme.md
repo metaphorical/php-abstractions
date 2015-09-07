@@ -26,8 +26,10 @@ Custom DTO is defined by extending AbstractEntity class and defining allowed fie
 Anything else is arbitrary depending on business logic dependencies.
 
 ####When DTO is defined, setters and getters are available in form:
-                         -set<Upper case first letter name of allowed field>(<field name>)
-                         -get<Upper case first letter name of allowed field>(<field name>)
+
+        -set<Upper case first letter name of allowed field>(<field name>)
+        
+        -get<Upper case first letter name of allowed field>(<field name>)
 
 
 There are also *toArray()* and *toJSON()* methods to get full  data object in defined form.
